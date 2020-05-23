@@ -1,10 +1,10 @@
 import React from 'react'
-import { View, Slider as SliderCompo, Text } from 'react-native'
+import { View, Slider as SliderComponent, Text } from 'react-native'
 
 export default function Slider({ max, unit, step, value, onChange }) {
     return (
         <View>
-            <SliderCompo
+            <SliderComponent
                 step={step}
                 value={value}
                 maximumValue={max}
